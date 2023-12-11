@@ -1,0 +1,9 @@
+# User-specific files
+Sheet_1.vcxproj.user
+Sheet_1.vcxproj.filters
+Sheet_1.vcxproj
+Sheet_1.sln
+.gitattributes
+/x64/Debug
+/.vs/Sheet_1/v17
+.vs/Sheet_1/v17

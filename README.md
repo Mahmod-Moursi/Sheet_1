@@ -22,7 +22,22 @@ Write a program that prompts the user to enter a number and calculates the appro
 Write a program that reads a line from standard input and prints the line to standard output but with all punctuation removed. The resulting program can be used as a filter.
 Hint: Have a look at the following STL Header: <cctype>
 
-	
+## Changes in the Latest Update
+
+### Code Refactoring and Issue Resolution
+
+In this update, the following changes have been made to enhance code functionality:
+
+#### 1. Precision Formatting in Task 2
+To address the first issue, the code has been updated to use the "std::setprecision" function, ensuring accurate formatting of floating-point values during output operations.
+
+#### 2. User Input Validation in Tasks 2 and 3
+For the second and third tasks, input validation checks have been added to ensure that users provide correct values. If incorrect values are entered, the system prompts the user to retry, improving the overall robustness of the program.
+
+#### Ongoing Challenge
+
+Despite the improvements, there is an ongoing challenge. While the code runs as intended, the third task is currently dependent on the absence of calls to other tasks. To achieve seamless functionality across all tasks, further adjustments may be necessary. Consider commenting out or removing calls to other tasks to ensure proper execution of the third task until a comprehensive solution is implemented.
+
 ## Usage
 
 1. **Range Sum:**
@@ -46,7 +61,8 @@ Hint: Have a look at the following STL Header: <cctype>
 
 ## Known Issues
 
-1. **Issue 1: Type Casting in the Second Task**
+
+1. **Issue 1: Type Casting in the Second Task** ✅ This issue has been resolved.
    - **Description:** Despite casting the result to double in the second task, the output remains an integer when the input is an integer.
    - **Impact:** This behavior is not intended and may lead to unexpected results.
 
